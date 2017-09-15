@@ -1,4 +1,4 @@
-/*--A Design by W3layouts 
+/*--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -37,7 +37,7 @@ body{
 	color: #FFFFFF;
     font-size: 1.3em;
     text-decoration: none;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', cursive;
 }
 .w3layouts-logo h1 a span{
     color: #ffffff !important;
@@ -225,7 +225,7 @@ ul.dropdown-menu li{
 .agileits-heading h3{
 	font-size: 3em;
     text-decoration: none;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', cursive;
     color: #212121;
     margin: 0;
 }
@@ -413,7 +413,7 @@ i.fa.fa-cog,i.fa.fa-heart,i.fa.fa-paper-plane{
 }
 .agileits-icon-grid:hover div.hvr-radial-out:before{
   -webkit-transform: scale(2);
-  transform: scale(2);	
+  transform: scale(2);
   color:#FFFFFF;
     transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -427,7 +427,7 @@ i.fa.fa-cog,i.fa.fa-heart,i.fa.fa-paper-plane{
   -webkit-transition: 0.5s all;
   -o-transition: 0.5s all;
   -moz-transition: 0.5s all;
-  -ms-transition: 0.5s all;	
+  -ms-transition: 0.5s all;
 }
 .agileits-icon-grid:nth-child(2) {
     margin: 2em 0;
@@ -827,7 +827,7 @@ footer{
 	color: #FFFFFF;
     font-size: 3em;
     margin: 0;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', cursive;
 }
 .main-textgrids {
     padding:4em 0;
@@ -1034,7 +1034,7 @@ ul.ab li a:hover{
     -ms-transition: 0.5s all;
     -moz-transition: 0.5s all;
     cursor: pointer;
-} 
+}
 .icon-box:hover {
     background: #03A9F4;
     transition: 0.5s all;
@@ -1053,11 +1053,11 @@ ul.ab li a:hover{
     float: left;
     width: 12.5%;
     height: 115px;
-    padding: 10px; 
+    padding: 10px;
     line-height: 1.4;
-    text-align: center;  
+    text-align: center;
     font-size: 12px;
-    list-style-type: none;	
+    list-style-type: none;
 }
 .codes .bs-glyphicons .glyphicon {
     margin-top: 5px;
@@ -1075,7 +1075,7 @@ ul.ab li a:hover{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 	color: #777;
-} 
+}
 .codes .bs-glyphicons .glyphicon-class {
     display: block;
     text-align: center;
@@ -1135,7 +1135,7 @@ h3.agileits-icons-title {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 	color: #777;
-} 
+}
 .icons .bs-glyphicons .glyphicon-class {
     display: block;
     text-align: center;
@@ -1182,7 +1182,7 @@ h3.hdg {
 .label {
   font-weight: 300 !important;
   border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;
@@ -1657,7 +1657,7 @@ h2.typoh2{
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 40px;
 	height: 40px;
 	border: none;
