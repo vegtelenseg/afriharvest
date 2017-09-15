@@ -1,0 +1,86 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<% include ../partials/header.ejs %>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<% include ../partials/logo.ejs %>
+		<div class="header-bottom">
+			<div class="container">
+				<div class="top-nav">
+					<% include ../partials/navigation.ejs %>
+				</div>
+				<!-- agileits-top-heading -->
+				<div class="agileits-top-heading">
+					<h2>Contact Us</h2>
+				</div>
+				<!-- //agileits-top-heading -->
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- contact -->
+	<div class="contact-top">
+		<!-- container -->
+		<div class="container">
+			<% include ../partials/map.ejs %>
+			<div class="mail-grids">
+				<div class="col-md-6 mail-grid-left">
+					<h3>Address</h3>
+					<h5>Cras porttitor imperdiet volutpat nulla malesuada lectus eros <span>ut convallis felis consectetur ut </span></h5>
+					<h4>Headquarters</h4>
+					<p>34 Forbes Road
+						<span>Randburg</span>
+						Johannesburg, 2194
+					</p>
+					<h4>Get In Touch</h4>
+					<p>Telephone: +27 456 9841
+						<span>FAX: +27 567 9871</span>
+						E-mail: <a href="mailto:info@example.com">mail@example.com</a>
+					</p>
+				</div>
+				<div class="col-md-6 contact-form">
+					<form action="#" method="post">
+						<input type="text" name="Name" placeholder="Name" required="">
+						<input type="email" name="Email" placeholder="Email" required="">
+						<input type="text" name="Subject" placeholder="Subject" required="">
+						<textarea name="Message" placeholder="Message" required=""></textarea>
+						<input type="submit" value="SEND">
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- //contact -->
+	<% include ../partials/footer.ejs %>
+	<!-- //copyright -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+</body>
+</html>
