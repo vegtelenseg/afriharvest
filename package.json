@@ -19,7 +19,7 @@
     "tape": "^4.7.0"
   },
   "repository": {
-    "type": "git",
+    "type": "git"
   },
   "keywords": [
     "node",
